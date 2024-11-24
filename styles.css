@@ -74,3 +74,20 @@ button:hover {
   border-radius: 15px;
   font-size: 0.9em;
 }
+
+.status {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 0.9em;
+}
+
+.status.in-review {
+  background-color: #fd9fc0;
+  color: #ffffff;
+}
+
+.status.draft {
+  background-color: #74747444;
+  color: #ffffff;
+}
