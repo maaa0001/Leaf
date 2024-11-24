@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       id: "#002",
-      name: "Robbery",
+      name: "obbery",
       description: "We had a robbery in one of our warehouses...",
       documents: ["update-log.txt"],
       status: "Draft",
@@ -24,10 +24,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Bestem klasse til status
       let statusClass = "";
-      if (claim.status === "In review") {
-        statusClass = "in-review";
-      } else if (claim.status === "Draft") {
+      if (claim.status === "Draft") {
         statusClass = "draft";
+      } else if (claim.status === "In review") {
+        statusClass = "in-review";
       }
 
       row.innerHTML = `
